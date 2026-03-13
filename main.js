@@ -63,9 +63,20 @@
 
 // Square(n) Sum 8kyu
 
-function squareSum(numbers) {
-    return numbers.reduce((acc, num) => acc + num ** 2, 0)
+// function squareSum(numbers) {
+//     return numbers.reduce((acc, num) => acc + num ** 2, 0)
+// }
+//
+// console.log(squareSum([1, 2, 2]))
+
+
+// Remove First and Last Character 8kyu
+
+function removeChar(str){
+    return str.slice(1,- 1)
 }
 
-console.log(squareSum([1, 2, 2]))
+console.log(removeChar('eloquent'))
+console.log(removeChar('country'))
+
 
