@@ -10,17 +10,25 @@
 
 // Multiply 8kyu
 
-function multiply(a, b) {
-    return a * b
-}
+// function multiply(a, b) {
+//     return a * b
+// }
 
 // Return Negative 8kyu
 
-function makeNegative(num) {
-    return num === 0 ? 0 : -Math.abs(num)
-}
+// function makeNegative(num) {
+//     return num === 0 ? 0 : -Math.abs(num)
+// }
+//
+// console.log(makeNegative(1))
+// console.log(makeNegative(-5))
+// console.log(makeNegative(0))
+// console.log(makeNegative(0.12))
 
-console.log(makeNegative(1))
-console.log(makeNegative(-5))
-console.log(makeNegative(0))
-console.log(makeNegative(0.12))
+// Sum of positive 8kyu
+
+// function positiveSum(arr) {
+//     return arr.reduce((acc, el) => el > 0 ? acc + el : acc, 0)
+// }
+//
+// console.log(positiveSum([1, -4, 7, 12]))
