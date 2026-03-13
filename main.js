@@ -32,3 +32,12 @@
 // }
 //
 // console.log(positiveSum([1, -4, 7, 12]))
+
+// Reversed Strings 8kyu
+
+function solution(str) {
+    return str.split('').reverse().join('')
+}
+
+console.log(solution('world'))
+console.log(solution('word'))
