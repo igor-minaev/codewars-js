@@ -45,9 +45,17 @@
 
 // Convert a Number to a String! 8kyu
 
-function numberToString(num) {
-    return num.toString()
+// function numberToString(num) {
+//     return num.toString()
+// }
+//
+// console.log(numberToString(123))
+// console.log(numberToString(-100))
+
+// Convert boolean values to strings 'Yes' or 'No'. 8kyu
+function boolToWord(bool) {
+    return bool ? "Yes" : "No"
 }
 
-console.log(numberToString(123))
-console.log(numberToString(-100))
+console.log(boolToWord(true))
+console.log(boolToWord(false))
