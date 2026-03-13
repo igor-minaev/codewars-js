@@ -53,9 +53,19 @@
 // console.log(numberToString(-100))
 
 // Convert boolean values to strings 'Yes' or 'No'. 8kyu
-function boolToWord(bool) {
-    return bool ? "Yes" : "No"
+// function boolToWord(bool) {
+//     return bool ? "Yes" : "No"
+// }
+//
+// console.log(boolToWord(true))
+// console.log(boolToWord(false))
+
+
+// Square(n) Sum 8kyu
+
+function squareSum(numbers) {
+    return numbers.reduce((acc, num) => acc + num ** 2, 0)
 }
 
-console.log(boolToWord(true))
-console.log(boolToWord(false))
+console.log(squareSum([1, 2, 2]))
+
