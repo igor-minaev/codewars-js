@@ -35,9 +35,19 @@
 
 // Reversed Strings 8kyu
 
-function solution(str) {
-    return str.split('').reverse().join('')
+// function solution(str) {
+//     return str.split('').reverse().join('')
+// }
+//
+// console.log(solution('world'))
+// console.log(solution('word'))
+
+
+// Convert a Number to a String! 8kyu
+
+function numberToString(num) {
+    return num.toString()
 }
 
-console.log(solution('world'))
-console.log(solution('word'))
+console.log(numberToString(123))
+console.log(numberToString(-100))
