@@ -81,13 +81,22 @@
 
 // Opposite number 8kyu
 
-function opposite(number) {
-    return number === 0 ? 0 : -number
+// function opposite(number) {
+//     return number === 0 ? 0 : -number
+// }
+//
+// console.log(opposite(1))
+// console.log(opposite(14))
+// console.log(opposite(-34))
+// console.log(opposite(0))
+
+// String repeat 8kyu
+
+function repeatStr(n, s) {
+    return s.repeat(n)
 }
 
-console.log(opposite(1))
-console.log(opposite(14))
-console.log(opposite(-34))
-console.log(opposite(0))
+console.log(repeatStr(3, "*"))
+console.log(repeatStr(4, "Hello"))
 
 
