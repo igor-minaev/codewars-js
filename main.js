@@ -92,11 +92,31 @@
 
 // String repeat 8kyu
 
-function repeatStr(n, s) {
-    return s.repeat(n)
+// function repeatStr(n, s) {
+//     return s.repeat(n)
+// }
+//
+// console.log(repeatStr(3, "*"))
+// console.log(repeatStr(4, "Hello"))
+
+// Grasshopper - Summation 8kyu
+
+// var summation = function (num) {
+//     let sum = 0
+//     for (let i = 1; i <= num; i++) {
+//         sum += i
+//     }
+//     return sum
+// }
+//
+// console.log(summation(2))
+// console.log(summation(8))
+
+var summation = function (num) {
+    return num/2 * (1 + num)
 }
 
-console.log(repeatStr(3, "*"))
-console.log(repeatStr(4, "Hello"))
+console.log(summation(2))
+console.log(summation(8))
 
 
