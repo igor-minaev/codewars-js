@@ -112,11 +112,41 @@
 // console.log(summation(2))
 // console.log(summation(8))
 
-var summation = function (num) {
-    return num/2 * (1 + num)
+// var summation = function (num) {
+//     return num/2 * (1 + num)
+// }
+//
+// console.log(summation(2))
+// console.log(summation(8))
+
+
+// Find the smallest integer in the array 8kyu
+
+// function findSmallestInt(arr) {
+//     let small = arr[0]
+//     for (let i = 0; i < arr.length; i++) {
+//         if (small > arr[i]) {
+//             small = arr[i]
+//         }
+//     }
+//     return small
+// }
+//
+//
+// console.log(findSmallestInt([34, 15, 88, 2]))
+// console.log(findSmallestInt([34, -345, -1, 100]))
+
+
+// function findSmallestInt(arr) {
+//     return arr.reduce((acc, el) => acc < el ? acc : el)
+// }
+//
+// console.log(findSmallestInt([34, 15, 88, 2]))
+// console.log(findSmallestInt([34, -345, -1, 100]))
+
+function findSmallestInt(arr) {
+    return Math.min(...arr)
 }
 
-console.log(summation(2))
-console.log(summation(8))
-
-
+console.log(findSmallestInt([34, 15, 88, 2]))
+console.log(findSmallestInt([34, -345, -1, 100]))
