@@ -144,9 +144,23 @@
 // console.log(findSmallestInt([34, 15, 88, 2]))
 // console.log(findSmallestInt([34, -345, -1, 100]))
 
-function findSmallestInt(arr) {
-    return Math.min(...arr)
+// function findSmallestInt(arr) {
+//     return Math.min(...arr)
+// }
+//
+// console.log(findSmallestInt([34, 15, 88, 2]))
+// console.log(findSmallestInt([34, -345, -1, 100]))
+
+// Remove String Spaces 8kyu
+
+// function noSpace(x){
+// return x.split(" ").join('')
+// }
+//
+// console.log(noSpace("8 j 8   mBliB8g  imjB8B8  jl  B"))
+
+function noSpace(x){
+    return x.replaceAll(" ","")
 }
 
-console.log(findSmallestInt([34, 15, 88, 2]))
-console.log(findSmallestInt([34, -345, -1, 100]))
+console.log(noSpace("8 j 8   mBliB8g  imjB8B8  jl  B"))
