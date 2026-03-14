@@ -72,11 +72,22 @@
 
 // Remove First and Last Character 8kyu
 
-function removeChar(str){
-    return str.slice(1,- 1)
+// function removeChar(str) {
+//     return str.slice(1, -1)
+// }
+//
+// console.log(removeChar('eloquent'))
+// console.log(removeChar('country'))
+
+// Opposite number 8kyu
+
+function opposite(number) {
+    return number === 0 ? 0 : -number
 }
 
-console.log(removeChar('eloquent'))
-console.log(removeChar('country'))
+console.log(opposite(1))
+console.log(opposite(14))
+console.log(opposite(-34))
+console.log(opposite(0))
 
 
