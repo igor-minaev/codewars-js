@@ -186,22 +186,31 @@
 
 // Basic Mathematical Operations 8kyu
 
-function basicOp(operation, value1, value2) {
-    //Code
-    switch (operation) {
-        case "+":
-            return value1 + value2
-        case "-":
-            return value1 - value2
-        case "*":
-            return value1 * value2
-        case "/":
-            return value1 / value2
-    }
+// function basicOp(operation, value1, value2) {
+//     //Code
+//     switch (operation) {
+//         case "+":
+//             return value1 + value2
+//         case "-":
+//             return value1 - value2
+//         case "*":
+//             return value1 * value2
+//         case "/":
+//             return value1 / value2
+//     }
+// }
+//
+// console.log(basicOp("+", 4, 7))
+
+// Abbreviate a Two Word Name 8kyu
+
+function abbrevName(name){
+
+    return name.split(" ").map(el=>el[0].toUpperCase()).join(".")
+
 }
 
-console.log(basicOp("+", 4, 7))
-
+console.log(abbrevName("Sam Harris"))
 
 
 
