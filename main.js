@@ -178,10 +178,30 @@
 
 // Convert a String to a Number! 8kyu
 
-const stringToNumber = function(str){
-    // put your code here
-    return parseInt(str);
+// const stringToNumber = function(str){
+//     // put your code here
+//     return parseInt(str);
+// }
+
+
+// Basic Mathematical Operations 8kyu
+
+function basicOp(operation, value1, value2) {
+    //Code
+    switch (operation) {
+        case "+":
+            return value1 + value2
+        case "-":
+            return value1 - value2
+        case "*":
+            return value1 * value2
+        case "/":
+            return value1 / value2
+    }
 }
+
+console.log(basicOp("+", 4, 7))
+
 
 
 
