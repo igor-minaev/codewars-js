@@ -159,8 +159,19 @@
 //
 // console.log(noSpace("8 j 8   mBliB8g  imjB8B8  jl  B"))
 
-function noSpace(x){
-    return x.replaceAll(" ","")
+function noSpace(x) {
+    return x.replaceAll(" ", "")
 }
 
 console.log(noSpace("8 j 8   mBliB8g  imjB8B8  jl  B"))
+
+// Counting sheep 8kyu
+
+function countSheeps(sheep) {
+    return sheep.reduce((acc, el) => el === true ? acc + 1 : acc, 0)
+}
+
+
+console.log(countSheeps([]))
+console.log(countSheeps([undefined]))
+console.log(countSheeps([undefined, null, false, true]))
