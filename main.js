@@ -204,13 +204,23 @@
 
 // Abbreviate a Two Word Name 8kyu
 
-function abbrevName(name){
+// function abbrevName(name){
+//
+//     return name.split(" ").map(el=>el[0].toUpperCase()).join(".")
+//
+// }
+//
+// console.log(abbrevName("Sam Harris"))
 
-    return name.split(" ").map(el=>el[0].toUpperCase()).join(".")
+// Keep Hydrated! 8kyu
 
+
+function litres(time) {
+    return Math.floor(time / 2);
 }
 
-console.log(abbrevName("Sam Harris"))
 
-
-
+console.log(litres(0))
+console.log(litres(1))
+console.log(litres(2))
+console.log(litres(12.3))
