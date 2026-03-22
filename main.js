@@ -227,10 +227,20 @@
 
 // Century From Year 8kyu
 
-function century(year) {
-    return Math.ceil(year / 100)
-}
+// function century(year) {
+//     return Math.ceil(year / 100)
+// }
+//
+// console.log(century(1705))
+// console.log(century(1900))
+// console.log(century(2000))
 
-console.log(century(1705))
-console.log(century(1900))
-console.log(century(2000))
+// Opposites Attract 8kyu
+
+// function lovefunc(flower1, flower2) {
+//     return ((flower1 % 2) === 0 && (flower2 % 2) !== 0) || ((flower1 % 2) !== 0 && (flower2 % 2) === 0)
+// }
+
+function lovefunc(flower1, flower2) {
+    return flower1 % 2 !== flower2 % 2
+}
