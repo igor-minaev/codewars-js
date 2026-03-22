@@ -247,9 +247,17 @@
 
 // Convert number to reversed array of digits 8kyu
 
-function digitize(n) {
-    return n.toString().split('').reverse().map(Number)
+// function digitize(n) {
+//     return n.toString().split('').reverse().map(Number)
+// }
+//
+//
+// console.log(digitize(35231))
+
+
+
+// Returning Strings 8kyu
+
+function greet(name) {
+    return `Hello, ${name} how are you doing today?`
 }
-
-
-console.log(digitize(35231))
