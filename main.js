@@ -255,9 +255,12 @@
 // console.log(digitize(35231))
 
 
-
 // Returning Strings 8kyu
 
-function greet(name) {
-    return `Hello, ${name} how are you doing today?`
-}
+// function greet(name) {
+//     return `Hello, ${name} how are you doing today?`
+// }
+
+// Function 1 - hello world 8kyu
+
+const greet = () => 'hello world!'
