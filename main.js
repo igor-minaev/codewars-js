@@ -263,4 +263,12 @@
 
 // Function 1 - hello world 8kyu
 
-const greet = () => 'hello world!'
+// const greet = () => 'hello world!'
+
+// A Needle in the Haystack 8kyu
+
+function findNeedle(haystack) {
+    return `found the needle at position ${haystack.indexOf('needle')}`
+}
+
+console.log(findNeedle(['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false]))
