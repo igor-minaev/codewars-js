@@ -215,12 +215,22 @@
 // Keep Hydrated! 8kyu
 
 
-function litres(time) {
-    return Math.floor(time / 2);
+// function litres(time) {
+//     return Math.floor(time / 2);
+// }
+//
+//
+// console.log(litres(0))
+// console.log(litres(1))
+// console.log(litres(2))
+// console.log(litres(12.3))
+
+// Century From Year 8kyu
+
+function century(year) {
+    return Math.ceil(year / 100)
 }
 
-
-console.log(litres(0))
-console.log(litres(1))
-console.log(litres(2))
-console.log(litres(12.3))
+console.log(century(1705))
+console.log(century(1900))
+console.log(century(2000))
