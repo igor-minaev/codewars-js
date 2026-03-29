@@ -294,6 +294,12 @@
 
 // Beginner Series #1 School Paperwork 8kyu
 
-function paperwork(n, m) {
-    return m < 0 || n < 0 ? 0 : m * n
+// function paperwork(n, m) {
+//     return m < 0 || n < 0 ? 0 : m * n
+// }
+
+// Beginner - Lost Without a Map 8kyu
+
+function maps(x) {
+    return x.map(n => n * 2)
 }
