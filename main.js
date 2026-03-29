@@ -267,8 +267,18 @@
 
 // A Needle in the Haystack 8kyu
 
-function findNeedle(haystack) {
-    return `found the needle at position ${haystack.indexOf('needle')}`
+// function findNeedle(haystack) {
+//     return `found the needle at position ${haystack.indexOf('needle')}`
+// }
+//
+// console.log(findNeedle(['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false]))
+
+// Sum Arrays 8kyu
+
+function sum(numbers) {
+    return numbers.reduce((el, acc) => acc + el, 0)
 }
 
-console.log(findNeedle(['3', '123124234', undefined, 'needle', 'world', 'hay', 2, '3', true, false]))
+console.log(sum([1, 5.2, 4, 0, -1]))
+console.log(sum([-2.398]))
+console.log(sum([]))
