@@ -285,9 +285,15 @@
 
 // Are You Playing Banjo? 8kyu
 
-function areYouPlayingBanjo(name) {
-    if (name[0] === 'R' || name[0] === 'r') {
-        return `${name} plays banjo`
-    }
-    return `${name} does not play banjo`
+// function areYouPlayingBanjo(name) {
+//     if (name[0] === 'R' || name[0] === 'r') {
+//         return `${name} plays banjo`
+//     }
+//     return `${name} does not play banjo`
+// }
+
+// Beginner Series #1 School Paperwork 8kyu
+
+function paperwork(n, m) {
+    return m < 0 || n < 0 ? 0 : m * n
 }
