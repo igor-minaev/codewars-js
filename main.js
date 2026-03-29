@@ -275,10 +275,19 @@
 
 // Sum Arrays 8kyu
 
-function sum(numbers) {
-    return numbers.reduce((el, acc) => acc + el, 0)
-}
+// function sum(numbers) {
+//     return numbers.reduce((el, acc) => acc + el, 0)
+// }
+//
+// console.log(sum([1, 5.2, 4, 0, -1]))
+// console.log(sum([-2.398]))
+// console.log(sum([]))
 
-console.log(sum([1, 5.2, 4, 0, -1]))
-console.log(sum([-2.398]))
-console.log(sum([]))
+// Are You Playing Banjo? 8kyu
+
+function areYouPlayingBanjo(name) {
+    if (name[0] === 'R' || name[0] === 'r') {
+        return `${name} plays banjo`
+    }
+    return `${name} does not play banjo`
+}
