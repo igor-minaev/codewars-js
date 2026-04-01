@@ -300,6 +300,14 @@
 
 // Beginner - Lost Without a Map 8kyu
 
-function maps(x) {
-    return x.map(n => n * 2)
+// function maps(x) {
+//     return x.map(n => n * 2)
+// }
+
+
+// Convert a Boolean to a String 8kyu
+
+
+function booleanToString(b){
+   return b.toString()
 }
