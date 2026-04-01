@@ -329,7 +329,13 @@
 
 // Calculate average 8kyu
 
-function findAverage(array) {
-    return array.length ? array.reduce((el, acc) => el + acc) / array.length : 0;
+// function findAverage(array) {
+//     return array.length ? array.reduce((el, acc) => el + acc) / array.length : 0;
+// }
+
+// Beginner Series #2 Clock 8kyu
+
+function past(h, m, s) {
+    return h * 3600000 + m * 60000 + s * 1000
 }
 
