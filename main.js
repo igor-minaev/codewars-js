@@ -315,6 +315,14 @@
 // Is n divisible by x and y? 8kyu
 
 
-function isDivisible(n, x, y) {
-    return n % x === 0 && n % y === 0
+// function isDivisible(n, x, y) {
+//     return n % x === 0 && n % y === 0
+// }
+
+// How good are you really? 8kyu
+
+function betterThanAverage(classPoints, yourPoints) {
+    // Your code here
+    let averagePoints = classPoints.reduce((p, acc) => acc + p, 0) / classPoints.length
+    return yourPoints > averagePoints
 }
