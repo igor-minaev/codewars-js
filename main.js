@@ -308,6 +308,13 @@
 // Convert a Boolean to a String 8kyu
 
 
-function booleanToString(b){
-   return b.toString()
+// function booleanToString(b){
+//    return b.toString()
+// }
+
+// Is n divisible by x and y? 8kyu
+
+
+function isDivisible(n, x, y) {
+    return n % x === 0 && n % y === 0
 }
