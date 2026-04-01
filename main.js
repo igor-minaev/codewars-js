@@ -321,8 +321,15 @@
 
 // How good are you really? 8kyu
 
-function betterThanAverage(classPoints, yourPoints) {
-    // Your code here
-    let averagePoints = classPoints.reduce((p, acc) => acc + p, 0) / classPoints.length
-    return yourPoints > averagePoints
+// function betterThanAverage(classPoints, yourPoints) {
+//     // Your code here
+//     let averagePoints = classPoints.reduce((p, acc) => acc + p, 0) / classPoints.length
+//     return yourPoints > averagePoints
+// }
+
+// Calculate average 8kyu
+
+function findAverage(array) {
+    return array.length ? array.reduce((el, acc) => el + acc) / array.length : 0;
 }
+
